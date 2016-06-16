@@ -8,7 +8,7 @@ URL: https://github.com/johnkim76/qci-sos-plugin
 Source0: qci.py
 
 Requires: python >= 2.3
-Requires: foreman >= 1.7.0
+Requires: sos
 
 BuildArch: noarch
 
@@ -16,8 +16,7 @@ BuildArch: noarch
 QCI SOS Plugin
 
 %prep
-
-%build
+%setup -q
 
 %install
 install -d -m 755 %{buildroot}%{python_sitelib}/sos/plugins/
