@@ -1,7 +1,7 @@
 Summary: QCI SOS Plugin 
 Name:    qci-sos-plugin
 Version: 1.0.0
-Release: 0%{dist}
+Release: 0%{?dist}
 Group:   Applications/Internet 
 License: Distributable
 URL: https://github.com/johnkim76/qci-sos-plugin
