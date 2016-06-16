@@ -26,6 +26,6 @@ cp -a qci.py %{buildroot}%{python_sitelib}/sos/plugins/
 %{__rm} -rf %{buildroot}
 
 %files
-%{python_sitelib}/sos/plugins/qci.py
+%{python_sitelib}/sos/plugins/qci.py*
 
 %changelog
